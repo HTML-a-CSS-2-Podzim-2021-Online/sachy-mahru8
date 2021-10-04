@@ -1,0 +1,106 @@
+
+body {
+    max-width: 600px;
+    font-family: sans-serif;
+}
+
+
+.sachovnice {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    aspect-ratio: 1/1;
+    background-image: url("obrazky/sachovnice.png");
+    border: 5px solid black;
+    background-size: contain;
+    }
+
+.sachovnice img {
+        width: 100%;
+        height: 100%;
+                }
+
+h1 {
+text-align: center;
+font-size: 3em;
+color: black;
+}
+
+.jmena {
+display: flex;
+justify-content: space-between;
+color: black;
+font-size: 1.5em;
+}
+
+.popis {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 1em;
+}
+
+}
+.pesec-bila {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.pesec-cerna1 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.pesec-cerna2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.pesec-cerna3 {
+    grid-column: 8;
+    grid-row: 4;
+}
+.strelec-cerna {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.kun-bila {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.vez-cerna {
+    grid-column: 3;
+    grid-row: 8;
+}
+
+.kral-bila {
+    grid-column: 6;
+    grid-row: 8;
+
+}
+.kral-cerna {
+    grid-column: 6;
+    grid-row: 6;
+}
+
+.vysledek {
+text-align: center;
+color: black;
+font-size: 2em;
+
+}
+
+button {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 2em;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
